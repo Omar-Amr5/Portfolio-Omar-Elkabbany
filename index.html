@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Omar Elkabbany - premium Flutter developer portfolio for freelancing, internships, and job applications."
+    />
+    <title>Omar Elkabbany | Premium Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container" aria-label="Primary">
+        <a href="#home" class="logo">Omar Elkabbany</a>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul id="navLinks" class="nav-links">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#feedback">Feedback</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section hero">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="glow glow-1"></span>
+          <span class="glow glow-2"></span>
+          <span class="glow glow-3"></span>
+          <div id="particles" class="particles"></div>
+        </div>
+        <div class="container hero-grid">
+          <div class="hero-content reveal" data-animate="slide-up" data-stagger="1">
+            <p class="intro">Hi, I'm</p>
+            <h1 class="hero-name">Omar Elkabbany</h1>
+            <h2 class="hero-role" id="typedText"></h2>
+            <p class="hero-description">
+              Focused on <span>UI/UX</span>, <span>APIs</span>, state management, performance optimization, and
+              <span>AI</span>-driven solutions for modern <span>Mobile Applications</span> with <span>Flutter</span>.
+            </p>
+            <div class="hero-actions">
+              <a href="#about" class="btn btn-primary">Show Profile</a>
+              <a href="#" class="btn btn-secondary">Download CV</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" data-animate="zoom-in" data-stagger="2">
+            <div class="profile-wrapper" id="profileWrapper">
+              <div class="profile-ring"></div>
+              <div class="profile-ring profile-ring-2"></div>
+              <img
+                src="C:\Users\LENOVO\Downloads\portfolio\assets\1.jpeg"
+                alt="Profile placeholder"
+                class="profile-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">About Me</h2>
+          <article class="about-card glass-card reveal" data-animate="slide-up">
+            <ul class="about-list">
+              <li><i class="fa-solid fa-user"></i> <strong>Name:</strong> Omar Elkabbany</li>
+              <li><i class="fa-solid fa-cake-candles"></i> <strong>Age:</strong> 21</li>
+              <li>
+                <i class="fa-solid fa-building-columns"></i> Student at <strong>Benha National University</strong>
+              </li>
+              <li><i class="fa-solid fa-graduation-cap"></i> Faculty of Computer Science</li>
+              <li><i class="fa-solid fa-brain"></i> Department of <strong>Artificial Intelligence</strong></li>
+              <li><i class="fa-solid fa-code"></i> Passionate <strong>Flutter Developer</strong></li>
+              <li><i class="fa-solid fa-microchip"></i> Strong AI background due to academic specialization</li>
+              <li><i class="fa-solid fa-mobile-screen-button"></i> Interested in smart products and <strong>Mobile Innovation</strong></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">Education</h2>
+          <div class="timeline">
+            <article class="timeline-item reveal" data-animate="slide-left">
+              <span class="timeline-node"></span>
+              <div class="timeline-content glass-card">
+                <h3>Benha National University</h3>
+                <p>Faculty of Computer Science</p>
+                <p>Department of AI</p>
+                <p>4th Year Student</p>
+                <p>2022 - 2026</p>
+                <p><strong>Grade:</strong> Very Good</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">Experience</h2>
+          <div class="experience-grid">
+            <article class="experience-card glass-card reveal" data-animate="slide-up">
+              <div class="exp-icon"><i class="fa-solid fa-code-branch"></i></div>
+              <h3>NTI x Creativa</h3>
+              <p>Flutter Internship Program</p>
+            </article>
+            <article class="experience-card glass-card reveal" data-animate="slide-up">
+              <div class="exp-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>Sprints x Microsoft Summer Camp 2025</h3>
+              <p>Online Flutter Training Program</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">Skills & Tools</h2>
+          <div class="skills-layout">
+            <article class="skill-category glass-card reveal" data-animate="slide-up">
+              <h3>Languages</h3>
+              <div class="skills-grid">
+                <span class="skill-chip"><i class="fa-solid fa-feather-pointed"></i> Dart</span>
+                <span class="skill-chip"><i class="fa-brands fa-python"></i> Python</span>
+                <span class="skill-chip"><i class="fa-solid fa-terminal"></i> C++</span>
+              </div>
+            </article>
+            <article class="skill-category glass-card reveal" data-animate="slide-up">
+              <h3>Frameworks</h3>
+              <div class="skills-grid">
+                <span class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Flutter</span>
+                <span class="skill-chip"><i class="fa-solid fa-fire"></i> Firebase</span>
+              </div>
+            </article>
+            <article class="skill-category glass-card reveal" data-animate="slide-up">
+              <h3>Development Tools</h3>
+              <div class="skills-grid">
+                <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+                <span class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</span>
+                <span class="skill-chip"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+                <span class="skill-chip"><i class="fa-brands fa-android"></i> Android Studio</span>
+                <span class="skill-chip"><i class="fa-solid fa-code"></i> VS Code</span>
+              </div>
+            </article>
+            <article class="skill-category glass-card reveal" data-animate="slide-up">
+              <h3>Architecture / Concepts</h3>
+              <div class="skills-grid">
+                <span class="skill-chip"><i class="fa-solid fa-layer-group"></i> State Management</span>
+                <span class="skill-chip"><i class="fa-solid fa-sitemap"></i> Clean Architecture</span>
+                <span class="skill-chip"><i class="fa-solid fa-diagram-project"></i> MVVM</span>
+                <span class="skill-chip"><i class="fa-solid fa-mobile"></i> Responsive UI</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card glass-card reveal" data-animate="zoom-in">
+              <h3>News App</h3>
+              <p class="project-short">Flutter news application with real-time API integration and responsive UI.</p>
+              <p><strong>Features:</strong> Fetch live news, categories, search, dark mode, responsive design.</p>
+              <p><strong>Tech Stack:</strong> Flutter / Dart / REST API / Cubit</p>
+              <p class="status">Status: In Progress</p>
+              <a class="btn btn-primary" target="_blank" rel="noopener" href="https://github.com/Omar-Amr5/flutter-ToDo-App">GitHub</a>
+            </article>
+
+            <article class="project-card glass-card reveal" data-animate="zoom-in">
+              <h3>ToDo App</h3>
+              <p class="project-short">Task management app for organizing daily tasks efficiently.</p>
+              <p><strong>Features:</strong> Add tasks, edit tasks, delete tasks, complete tasks.</p>
+              <p><strong>Tech Stack:</strong> Flutter / Dart</p>
+              <p class="status">Status: In Progress</p>
+              <a class="btn btn-primary" target="_blank" rel="noopener" href="https://github.com/Omar-Amr5/flutter-ToDo-App">GitHub</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="feedback" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">Feedback</h2>
+          <div class="testimonial-carousel reveal" data-animate="slide-up">
+            <div id="feedbackTrack" class="feedback-track">
+              <article class="testimonial-card glass-card">
+                <img class="avatar" src="https://i.pravatar.cc/90?img=11" alt="Ahmed Hassan" />
+                <h3>Ahmed Hassan</h3>
+                <p class="stars">★★★★★</p>
+                <p>"Excellent developer and very creative."</p>
+              </article>
+              <article class="testimonial-card glass-card">
+                <img class="avatar" src="https://i.pravatar.cc/90?img=12" alt="Mohamed Ali" />
+                <h3>Mohamed Ali</h3>
+                <p class="stars">★★★★★</p>
+                <p>"Professional work and clean UI."</p>
+              </article>
+              <article class="testimonial-card glass-card">
+                <img class="avatar" src="https://i.pravatar.cc/90?img=13" alt="Youssef Samy" />
+                <h3>Youssef Samy</h3>
+                <p class="stars">★★★★★</p>
+                <p>"Strong Flutter skills and fast delivery."</p>
+              </article>
+              <article class="testimonial-card glass-card">
+                <img class="avatar" src="https://i.pravatar.cc/90?img=14" alt="Karim Adel" />
+                <h3>Karim Adel</h3>
+                <p class="stars">★★★★★</p>
+                <p>"Highly recommended for mobile projects."</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title reveal" data-animate="fade-in">Contact</h2>
+          <div class="contact-grid">
+            <a class="contact-card reveal" data-animate="slide-up" href="mailto:omarelkabbany5@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>Email</h3>
+              <p>omarelkabbany5@gmail.com</p>
+            </a>
+            <a class="contact-card reveal" data-animate="slide-up" href="https://github.com/Omar-Amr5" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <h3>GitHub</h3>
+              <p>github.com/Omar-Amr5</p>
+            </a>
+            <a class="contact-card reveal" data-animate="slide-up" href="https://linkedin.com/in/omar-amr" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i>
+              <h3>LinkedIn</h3>
+              <p>linkedin.com/in/omar-amr</p>
+            </a>
+            <a class="contact-card reveal" data-animate="slide-up" href="https://wa.me/201061938793" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i>
+              <h3>WhatsApp</h3>
+              <p>01061938793</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
